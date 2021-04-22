@@ -1,0 +1,247 @@
+body{
+	background-image: url('../Geeta.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.shade{
+	position: absolute;
+	opacity: 70%;
+	width: 100%;
+}
+
+.box{
+	/* background-image: linear-gradient(to left, rgba(215, 237, 255, 0), #cab98d); */
+	border-radius: 1rem;
+}
+
+.icon{
+	border-radius: .6rem;
+	box-shadow: 2px 2px 2px 2px #F1F193;
+}
+
+
+.icon{
+	background-image: url('../New folder/4196050.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 1rem auto;
+	height: 12rem;
+	overflow-x:auto;
+}
+.icon:hover{
+	position: relative;
+	bottom: 1px;
+	cursor: pointer;
+}
+
+.icon
+h3{
+ border: none;
+ color: #F1F193;
+ margin: auto;
+ margin-top: 2rem;
+ /* text-shadow: 0 0 5px #000000, 0 0 10px #fff, 
+0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6; */
+}
+
+.icon:hover
+h3{
+	transition: .6s all;
+	color: rgb(255, 255, 255);
+}
+
+.modal-content{
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+.modal-dialog{
+	min-width: 60%;
+}
+
+.eimage
+img{
+	width: 100%;
+	max-height: 13rem;
+	border-radius: .7rem;
+}
+
+.navs
+a{
+	color: rgb(253, 253, 253);
+	font-weight: 600;
+	background-color: rgb(91, 94, 241);
+	border-radius: 4%;
+	padding: 3%;
+	margin: .3rem;
+	text-decoration: none!important;
+}
+
+.navs:hover
+a{
+	color: blue;
+	font-weight: 600;
+	background-color: #fff;
+	transition: 1.1s all;
+}
+
+.about,.sponsor{
+	background-image: url('../aw.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.heading{
+	color: bisque;
+}
+.heading
+h1{
+	
+	font-size: 5rem;
+	border-bottom: 1px solid #8F732B;
+}
+
+
+.nav-item
+a ,.navbar-brand{
+	color: #8F732B!important;
+	font-weight: 800;
+}
+
+.active
+a{
+	color: #fff!important;
+}
+
+.carousel{
+	width: 100%;
+}
+
+.carousel
+img{
+   opacity: 80%;
+   width: 35rem;
+   height: 22rem!important;
+   border-radius: .6rem!important;
+}
+
+.slide
+h1{
+	margin-bottom: 2rem;
+	font-size: 3rem;
+	padding-bottom: .5rem;
+	border-bottom: 1px solid #8F732B;
+}
+
+.dabba{
+	color: aliceblue;
+	margin: 2rem;
+}
+
+.dabba
+img{
+	width: 20rem;
+	border-radius: 5px;
+}
+
+.navbar-brand
+img{
+ width: 4rem;
+ position: absolute;
+ top: 1rem;
+ left: 2rem;
+}
+.navbar-brand{
+margin: 2rem;
+}
+
+
+.icon-bar {
+	width: 30px; 
+	height: 4px;
+	top: -3px!important;
+	background-color: white;
+	display: block;
+	transition: all 0.6s;
+	margin-top: 4px
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+ 
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+ 
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+ 
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+ 
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+ 
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.footer{
+	width: 100%!important;
+}
+
+.desc{
+	height: 12rem;
+    overflow-y: scroll;
+	scrollbar-color: dark!important;
+}
+
+.desc
+p{
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+.close{
+	position: absolute;
+	top: 6px;
+	right: 4px;
+}
+
+.footer
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer
+a:hover{
+	text-decoration: none;
+	color: #F1F193;
+}
+
+.address:hover{
+	cursor: pointer!important;
+	text-decoration: none;
+	color: #F1F193;
+}

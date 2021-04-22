@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body class="about">
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="/"><img src="./logo.PNG"></a>
+        
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>				
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item m-1">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item m-1 active">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item m-1">
+              <a class="nav-link" href="./sponsor.html">Sponsors</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="heading m-0 p-3 text-left">
+        <h1>ABOUT R & D</h1>
+    </div>
+    
+    <div class="mt-2 p-3">
+        <div class="row m-auto">
+            <div class="col-sm-5 m-1">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./DSC_0020.JPG" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./IMG_0902.JPG" alt="Second slide">
+                      </div>
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="./IMG_0450.JPG" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./DSC_0039.JPG" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./DSC_0027.JPG" alt="Third slide">
+                      </div>
+                    </div>
+                  </div>
+            </div>  
+
+            <div class="col-sm-5 offset-sm-1 mt-1 slide text-left text-light">
+                <h1>QUEST FOR EXCELLENCE</h1>
+                <h5>IEEE-JUIT-SB is organising its first ever virtual R&D expo, a 3-day event including a plethora of events which empowers students to apply their engineering skills to themes of high relevance and global impact. The main attraction of this event would be a 16 Hour Hackathon. To add a splash of creativity ,we have some fun events too such as Meme It Up,Sherlock Holmes and the Virtual Cricket League.There would also be Tech Talks by various speakers having expertise and experience in the field of science and technology. Our goal is to bring all the students and attendees together to give them inspiration, vision and motivation to achieve more and be successful.</h5>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <script>
+      $(document).ready(function () {
+        $(document).click(
+          function (event) {
+            var target = $(event.target);
+            var _mobileMenuOpen = $(".navbar-collapse").hasClass("show");
+            if (_mobileMenuOpen === true && !target.hasClass("navbar-toggler")) {
+              $("button.navbar-toggler").click();
+            }
+          }
+        );
+      });
+    </script>     
+</body>
+</html>
